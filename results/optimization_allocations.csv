@@ -1,0 +1,505 @@
+method,run,route_id,allocation
+Uniform allocation,0,SYN-009,1.25
+Uniform allocation,0,SYN-014,1.25
+Uniform allocation,0,SYN-027,1.25
+Uniform allocation,0,SYN-034,1.25
+Uniform allocation,0,SYN-035,1.25
+Uniform allocation,0,SYN-037,1.25
+Uniform allocation,0,SYN-044,1.25
+Uniform allocation,0,SYN-050,1.25
+Vulnerability-proportional allocation,0,SYN-009,0.1861984850589424
+Vulnerability-proportional allocation,0,SYN-014,0.8235314689708867
+Vulnerability-proportional allocation,0,SYN-027,2.3071466539938066
+Vulnerability-proportional allocation,0,SYN-034,0.9470027380151603
+Vulnerability-proportional allocation,0,SYN-035,1.5816336266372921
+Vulnerability-proportional allocation,0,SYN-037,0.45597995652877704
+Vulnerability-proportional allocation,0,SYN-044,1.583141695338484
+Vulnerability-proportional allocation,0,SYN-050,2.115365375456651
+Greedy marginal allocation,0,SYN-009,0.0
+Greedy marginal allocation,0,SYN-014,1.0
+Greedy marginal allocation,0,SYN-027,1.0
+Greedy marginal allocation,0,SYN-034,1.0
+Greedy marginal allocation,0,SYN-035,1.0
+Greedy marginal allocation,0,SYN-037,0.0
+Greedy marginal allocation,0,SYN-044,2.0
+Greedy marginal allocation,0,SYN-050,4.0
+Elite-preserving stochastic search,1,SYN-009,0.1831871601686481
+Elite-preserving stochastic search,1,SYN-014,0.0933115610713243
+Elite-preserving stochastic search,1,SYN-027,0.43768784425066504
+Elite-preserving stochastic search,1,SYN-034,1.4659010059549789
+Elite-preserving stochastic search,1,SYN-035,0.24063365850639026
+Elite-preserving stochastic search,1,SYN-037,0.7607692528630066
+Elite-preserving stochastic search,1,SYN-044,3.0134528415113317
+Elite-preserving stochastic search,1,SYN-050,3.805056675673655
+Random search,1,SYN-009,0.1831871601686481
+Random search,1,SYN-014,0.0933115610713243
+Random search,1,SYN-027,0.43768784425066504
+Random search,1,SYN-034,1.4659010059549789
+Random search,1,SYN-035,0.24063365850639026
+Random search,1,SYN-037,0.7607692528630066
+Random search,1,SYN-044,3.0134528415113317
+Random search,1,SYN-050,3.805056675673655
+Elite-preserving stochastic search,2,SYN-009,0.25254134364507225
+Elite-preserving stochastic search,2,SYN-014,0.9753644488968138
+Elite-preserving stochastic search,2,SYN-027,0.8216176769100018
+Elite-preserving stochastic search,2,SYN-034,1.490059407512132
+Elite-preserving stochastic search,2,SYN-035,0.5415424814064118
+Elite-preserving stochastic search,2,SYN-037,0.3260531261886857
+Elite-preserving stochastic search,2,SYN-044,3.300165144752785
+Elite-preserving stochastic search,2,SYN-050,2.292656370688096
+Random search,2,SYN-009,0.25254134364507225
+Random search,2,SYN-014,0.9753644488968138
+Random search,2,SYN-027,0.8216176769100018
+Random search,2,SYN-034,1.490059407512132
+Random search,2,SYN-035,0.5415424814064118
+Random search,2,SYN-037,0.3260531261886857
+Random search,2,SYN-044,3.300165144752785
+Random search,2,SYN-050,2.292656370688096
+Elite-preserving stochastic search,3,SYN-009,0.33079193710581606
+Elite-preserving stochastic search,3,SYN-014,0.5456268263858494
+Elite-preserving stochastic search,3,SYN-027,1.2754089532044832
+Elite-preserving stochastic search,3,SYN-034,1.56191826866771
+Elite-preserving stochastic search,3,SYN-035,0.12448430760035141
+Elite-preserving stochastic search,3,SYN-037,1.1126611429986135
+Elite-preserving stochastic search,3,SYN-044,2.1700827497643584
+Elite-preserving stochastic search,3,SYN-050,2.8790258142728185
+Random search,3,SYN-009,0.33079193710581606
+Random search,3,SYN-014,0.5456268263858494
+Random search,3,SYN-027,1.2754089532044832
+Random search,3,SYN-034,1.56191826866771
+Random search,3,SYN-035,0.12448430760035141
+Random search,3,SYN-037,1.1126611429986135
+Random search,3,SYN-044,2.1700827497643584
+Random search,3,SYN-050,2.8790258142728185
+Elite-preserving stochastic search,4,SYN-009,0.0331190163684653
+Elite-preserving stochastic search,4,SYN-014,0.5043203714259755
+Elite-preserving stochastic search,4,SYN-027,1.5046079890677746
+Elite-preserving stochastic search,4,SYN-034,1.9913151946715733
+Elite-preserving stochastic search,4,SYN-035,0.8190840240589972
+Elite-preserving stochastic search,4,SYN-037,0.29034918067354315
+Elite-preserving stochastic search,4,SYN-044,2.390841274548601
+Elite-preserving stochastic search,4,SYN-050,2.466362949185071
+Random search,4,SYN-009,0.0331190163684653
+Random search,4,SYN-014,0.5043203714259755
+Random search,4,SYN-027,1.5046079890677746
+Random search,4,SYN-034,1.9913151946715733
+Random search,4,SYN-035,0.8190840240589972
+Random search,4,SYN-037,0.29034918067354315
+Random search,4,SYN-044,2.390841274548601
+Random search,4,SYN-050,2.466362949185071
+Elite-preserving stochastic search,5,SYN-009,0.47697395099313256
+Elite-preserving stochastic search,5,SYN-014,0.9895754662850692
+Elite-preserving stochastic search,5,SYN-027,1.86437842708866
+Elite-preserving stochastic search,5,SYN-034,1.201077116531356
+Elite-preserving stochastic search,5,SYN-035,0.6522476343891913
+Elite-preserving stochastic search,5,SYN-037,0.7396473145016643
+Elite-preserving stochastic search,5,SYN-044,1.7210755211599416
+Elite-preserving stochastic search,5,SYN-050,2.355024569050984
+Random search,5,SYN-009,0.47697395099313256
+Random search,5,SYN-014,0.9895754662850692
+Random search,5,SYN-027,1.86437842708866
+Random search,5,SYN-034,1.201077116531356
+Random search,5,SYN-035,0.6522476343891913
+Random search,5,SYN-037,0.7396473145016643
+Random search,5,SYN-044,1.7210755211599416
+Random search,5,SYN-050,2.355024569050984
+Elite-preserving stochastic search,6,SYN-009,0.14567025507460415
+Elite-preserving stochastic search,6,SYN-014,0.7269217323293489
+Elite-preserving stochastic search,6,SYN-027,0.6573335965683328
+Elite-preserving stochastic search,6,SYN-034,1.807426677926068
+Elite-preserving stochastic search,6,SYN-035,1.3696805084201877
+Elite-preserving stochastic search,6,SYN-037,0.11839580235562144
+Elite-preserving stochastic search,6,SYN-044,2.71400362447695
+Elite-preserving stochastic search,6,SYN-050,2.4605678028488867
+Random search,6,SYN-009,0.14567025507460415
+Random search,6,SYN-014,0.7269217323293489
+Random search,6,SYN-027,0.6573335965683328
+Random search,6,SYN-034,1.807426677926068
+Random search,6,SYN-035,1.3696805084201877
+Random search,6,SYN-037,0.11839580235562144
+Random search,6,SYN-044,2.71400362447695
+Random search,6,SYN-050,2.4605678028488867
+Elite-preserving stochastic search,7,SYN-009,0.18254102139758682
+Elite-preserving stochastic search,7,SYN-014,1.6314578885693505
+Elite-preserving stochastic search,7,SYN-027,0.571819402588981
+Elite-preserving stochastic search,7,SYN-034,1.4056110736412297
+Elite-preserving stochastic search,7,SYN-035,0.6424863383729575
+Elite-preserving stochastic search,7,SYN-037,0.3688125616997428
+Elite-preserving stochastic search,7,SYN-044,2.3873893142875158
+Elite-preserving stochastic search,7,SYN-050,2.8098823994426354
+Random search,7,SYN-009,0.18254102139758682
+Random search,7,SYN-014,1.6314578885693505
+Random search,7,SYN-027,0.571819402588981
+Random search,7,SYN-034,1.4056110736412297
+Random search,7,SYN-035,0.6424863383729575
+Random search,7,SYN-037,0.3688125616997428
+Random search,7,SYN-044,2.3873893142875158
+Random search,7,SYN-050,2.8098823994426354
+Elite-preserving stochastic search,8,SYN-009,0.23232822188070243
+Elite-preserving stochastic search,8,SYN-014,0.6703972542403879
+Elite-preserving stochastic search,8,SYN-027,1.037180426921763
+Elite-preserving stochastic search,8,SYN-034,1.4605609737206318
+Elite-preserving stochastic search,8,SYN-035,0.9104170544916985
+Elite-preserving stochastic search,8,SYN-037,0.003079920186753686
+Elite-preserving stochastic search,8,SYN-044,2.9558133888007423
+Elite-preserving stochastic search,8,SYN-050,2.730222759757321
+Random search,8,SYN-009,0.23232822188070243
+Random search,8,SYN-014,0.6703972542403879
+Random search,8,SYN-027,1.037180426921763
+Random search,8,SYN-034,1.4605609737206318
+Random search,8,SYN-035,0.9104170544916985
+Random search,8,SYN-037,0.003079920186753686
+Random search,8,SYN-044,2.9558133888007423
+Random search,8,SYN-050,2.730222759757321
+Elite-preserving stochastic search,9,SYN-009,0.1144328497831357
+Elite-preserving stochastic search,9,SYN-014,0.08924160130484066
+Elite-preserving stochastic search,9,SYN-027,1.7997201351956824
+Elite-preserving stochastic search,9,SYN-034,1.9408368124705702
+Elite-preserving stochastic search,9,SYN-035,1.4485054990418529
+Elite-preserving stochastic search,9,SYN-037,0.19513155353790634
+Elite-preserving stochastic search,9,SYN-044,1.9251790464520435
+Elite-preserving stochastic search,9,SYN-050,2.486952502213969
+Random search,9,SYN-009,0.1144328497831357
+Random search,9,SYN-014,0.08924160130484066
+Random search,9,SYN-027,1.7997201351956824
+Random search,9,SYN-034,1.9408368124705702
+Random search,9,SYN-035,1.4485054990418529
+Random search,9,SYN-037,0.19513155353790634
+Random search,9,SYN-044,1.9251790464520435
+Random search,9,SYN-050,2.486952502213969
+Elite-preserving stochastic search,10,SYN-009,0.37187651565599167
+Elite-preserving stochastic search,10,SYN-014,1.6061069486605486
+Elite-preserving stochastic search,10,SYN-027,1.1197608549627878
+Elite-preserving stochastic search,10,SYN-034,0.9426311081334141
+Elite-preserving stochastic search,10,SYN-035,0.44584246376987413
+Elite-preserving stochastic search,10,SYN-037,0.5479861024213646
+Elite-preserving stochastic search,10,SYN-044,2.1200717017762067
+Elite-preserving stochastic search,10,SYN-050,2.8457243046198117
+Random search,10,SYN-009,0.37187651565599167
+Random search,10,SYN-014,1.6061069486605486
+Random search,10,SYN-027,1.1197608549627878
+Random search,10,SYN-034,0.9426311081334141
+Random search,10,SYN-035,0.44584246376987413
+Random search,10,SYN-037,0.5479861024213646
+Random search,10,SYN-044,2.1200717017762067
+Random search,10,SYN-050,2.8457243046198117
+Elite-preserving stochastic search,11,SYN-009,0.6082857239299744
+Elite-preserving stochastic search,11,SYN-014,0.7185242215124608
+Elite-preserving stochastic search,11,SYN-027,2.3224413314578656
+Elite-preserving stochastic search,11,SYN-034,0.9233822786514236
+Elite-preserving stochastic search,11,SYN-035,0.11501260906217864
+Elite-preserving stochastic search,11,SYN-037,0.3352266626116065
+Elite-preserving stochastic search,11,SYN-044,2.511151512086156
+Elite-preserving stochastic search,11,SYN-050,2.4659756606883345
+Random search,11,SYN-009,0.008379301752125517
+Random search,11,SYN-014,1.1583992526748474
+Random search,11,SYN-027,1.3033226734388388
+Random search,11,SYN-034,1.3900965115373
+Random search,11,SYN-035,0.14168782669274835
+Random search,11,SYN-037,0.97891489909912
+Random search,11,SYN-044,2.4426393860753284
+Random search,11,SYN-050,2.5765601487296905
+Elite-preserving stochastic search,12,SYN-009,0.08735601916578083
+Elite-preserving stochastic search,12,SYN-014,0.2890560078696907
+Elite-preserving stochastic search,12,SYN-027,0.7202013507496265
+Elite-preserving stochastic search,12,SYN-034,1.3746034260735083
+Elite-preserving stochastic search,12,SYN-035,1.2040796096102895
+Elite-preserving stochastic search,12,SYN-037,0.47287739317177707
+Elite-preserving stochastic search,12,SYN-044,2.0238232268566447
+Elite-preserving stochastic search,12,SYN-050,3.828002966502683
+Random search,12,SYN-009,0.08735601916578083
+Random search,12,SYN-014,0.2890560078696907
+Random search,12,SYN-027,0.7202013507496265
+Random search,12,SYN-034,1.3746034260735083
+Random search,12,SYN-035,1.2040796096102895
+Random search,12,SYN-037,0.47287739317177707
+Random search,12,SYN-044,2.0238232268566447
+Random search,12,SYN-050,3.828002966502683
+Elite-preserving stochastic search,13,SYN-009,0.3631092896288176
+Elite-preserving stochastic search,13,SYN-014,0.7958322936511937
+Elite-preserving stochastic search,13,SYN-027,1.9657058354037311
+Elite-preserving stochastic search,13,SYN-034,1.889783679594264
+Elite-preserving stochastic search,13,SYN-035,0.5595736457491873
+Elite-preserving stochastic search,13,SYN-037,0.3135613047916463
+Elite-preserving stochastic search,13,SYN-044,2.0021905444795562
+Elite-preserving stochastic search,13,SYN-050,2.110243406701603
+Random search,13,SYN-009,0.3631092896288176
+Random search,13,SYN-014,0.7958322936511937
+Random search,13,SYN-027,1.9657058354037311
+Random search,13,SYN-034,1.889783679594264
+Random search,13,SYN-035,0.5595736457491873
+Random search,13,SYN-037,0.3135613047916463
+Random search,13,SYN-044,2.0021905444795562
+Random search,13,SYN-050,2.110243406701603
+Elite-preserving stochastic search,14,SYN-009,0.13695106361338075
+Elite-preserving stochastic search,14,SYN-014,1.1531403112197136
+Elite-preserving stochastic search,14,SYN-027,2.253413216800543
+Elite-preserving stochastic search,14,SYN-034,1.3795362983065638
+Elite-preserving stochastic search,14,SYN-035,0.5015197619432398
+Elite-preserving stochastic search,14,SYN-037,0.6617235521466877
+Elite-preserving stochastic search,14,SYN-044,1.572797699843119
+Elite-preserving stochastic search,14,SYN-050,2.340918096126752
+Random search,14,SYN-009,0.13695106361338075
+Random search,14,SYN-014,1.1531403112197136
+Random search,14,SYN-027,2.253413216800543
+Random search,14,SYN-034,1.3795362983065638
+Random search,14,SYN-035,0.5015197619432398
+Random search,14,SYN-037,0.6617235521466877
+Random search,14,SYN-044,1.572797699843119
+Random search,14,SYN-050,2.340918096126752
+Elite-preserving stochastic search,15,SYN-009,0.6439482714946346
+Elite-preserving stochastic search,15,SYN-014,0.6901097722623164
+Elite-preserving stochastic search,15,SYN-027,1.902074591972958
+Elite-preserving stochastic search,15,SYN-034,1.0795672385273958
+Elite-preserving stochastic search,15,SYN-035,0.4576562344858911
+Elite-preserving stochastic search,15,SYN-037,0.5698939371731618
+Elite-preserving stochastic search,15,SYN-044,2.255442378767201
+Elite-preserving stochastic search,15,SYN-050,2.4013075753164412
+Random search,15,SYN-009,0.6439482714946346
+Random search,15,SYN-014,0.6901097722623164
+Random search,15,SYN-027,1.902074591972958
+Random search,15,SYN-034,1.0795672385273958
+Random search,15,SYN-035,0.4576562344858911
+Random search,15,SYN-037,0.5698939371731618
+Random search,15,SYN-044,2.255442378767201
+Random search,15,SYN-050,2.4013075753164412
+Elite-preserving stochastic search,16,SYN-009,0.37527711220192356
+Elite-preserving stochastic search,16,SYN-014,0.5230245589477893
+Elite-preserving stochastic search,16,SYN-027,1.1991428840614078
+Elite-preserving stochastic search,16,SYN-034,1.434139285219755
+Elite-preserving stochastic search,16,SYN-035,0.15398005402401188
+Elite-preserving stochastic search,16,SYN-037,0.8769404720319629
+Elite-preserving stochastic search,16,SYN-044,2.357247787664479
+Elite-preserving stochastic search,16,SYN-050,3.080247845848673
+Random search,16,SYN-009,0.25084114057889717
+Random search,16,SYN-014,0.5273564013807471
+Random search,16,SYN-027,2.048176964288478
+Random search,16,SYN-034,1.2506109234308103
+Random search,16,SYN-035,0.08296239609072606
+Random search,16,SYN-037,0.03435715079116833
+Random search,16,SYN-044,2.8304186076129616
+Random search,16,SYN-050,2.9752764158262126
+Elite-preserving stochastic search,17,SYN-009,0.6528445966699298
+Elite-preserving stochastic search,17,SYN-014,0.14429220199144435
+Elite-preserving stochastic search,17,SYN-027,1.4350189480756383
+Elite-preserving stochastic search,17,SYN-034,0.7412831442775831
+Elite-preserving stochastic search,17,SYN-035,0.6973475433799753
+Elite-preserving stochastic search,17,SYN-037,0.09395456783375494
+Elite-preserving stochastic search,17,SYN-044,3.1225353155058455
+Elite-preserving stochastic search,17,SYN-050,3.1127236822658295
+Random search,17,SYN-009,0.6528445966699298
+Random search,17,SYN-014,0.14429220199144435
+Random search,17,SYN-027,1.4350189480756383
+Random search,17,SYN-034,0.7412831442775831
+Random search,17,SYN-035,0.6973475433799753
+Random search,17,SYN-037,0.09395456783375494
+Random search,17,SYN-044,3.1225353155058455
+Random search,17,SYN-050,3.1127236822658295
+Elite-preserving stochastic search,18,SYN-009,0.19128375475591725
+Elite-preserving stochastic search,18,SYN-014,0.5131092536619216
+Elite-preserving stochastic search,18,SYN-027,1.9881158270746686
+Elite-preserving stochastic search,18,SYN-034,0.8924369919202337
+Elite-preserving stochastic search,18,SYN-035,1.302707876530476
+Elite-preserving stochastic search,18,SYN-037,0.7134157687957554
+Elite-preserving stochastic search,18,SYN-044,1.7449689533629462
+Elite-preserving stochastic search,18,SYN-050,2.653961573898082
+Random search,18,SYN-009,0.19128375475591725
+Random search,18,SYN-014,0.5131092536619216
+Random search,18,SYN-027,1.9881158270746686
+Random search,18,SYN-034,0.8924369919202337
+Random search,18,SYN-035,1.302707876530476
+Random search,18,SYN-037,0.7134157687957554
+Random search,18,SYN-044,1.7449689533629462
+Random search,18,SYN-050,2.653961573898082
+Elite-preserving stochastic search,19,SYN-009,0.4426793458799307
+Elite-preserving stochastic search,19,SYN-014,1.3135585070623461
+Elite-preserving stochastic search,19,SYN-027,1.0997509247934023
+Elite-preserving stochastic search,19,SYN-034,1.376250786846232
+Elite-preserving stochastic search,19,SYN-035,0.6930993087558606
+Elite-preserving stochastic search,19,SYN-037,0.6003353685987117
+Elite-preserving stochastic search,19,SYN-044,2.145113278858946
+Elite-preserving stochastic search,19,SYN-050,2.3292124792045708
+Random search,19,SYN-009,0.4426793458799307
+Random search,19,SYN-014,1.3135585070623461
+Random search,19,SYN-027,1.0997509247934023
+Random search,19,SYN-034,1.376250786846232
+Random search,19,SYN-035,0.6930993087558606
+Random search,19,SYN-037,0.6003353685987117
+Random search,19,SYN-044,2.145113278858946
+Random search,19,SYN-050,2.3292124792045708
+Elite-preserving stochastic search,20,SYN-009,0.1733541466674688
+Elite-preserving stochastic search,20,SYN-014,0.4781639677264365
+Elite-preserving stochastic search,20,SYN-027,0.9387679548392137
+Elite-preserving stochastic search,20,SYN-034,1.469600576655118
+Elite-preserving stochastic search,20,SYN-035,0.910845960171423
+Elite-preserving stochastic search,20,SYN-037,0.7911449883699195
+Elite-preserving stochastic search,20,SYN-044,2.442637382507622
+Elite-preserving stochastic search,20,SYN-050,2.7954850230627994
+Random search,20,SYN-009,0.1733541466674688
+Random search,20,SYN-014,0.4781639677264365
+Random search,20,SYN-027,0.9387679548392137
+Random search,20,SYN-034,1.469600576655118
+Random search,20,SYN-035,0.910845960171423
+Random search,20,SYN-037,0.7911449883699195
+Random search,20,SYN-044,2.442637382507622
+Random search,20,SYN-050,2.7954850230627994
+Elite-preserving stochastic search,21,SYN-009,0.7389992253538118
+Elite-preserving stochastic search,21,SYN-014,0.551187050830633
+Elite-preserving stochastic search,21,SYN-027,0.8975590698163426
+Elite-preserving stochastic search,21,SYN-034,1.80708033102811
+Elite-preserving stochastic search,21,SYN-035,0.07714215350811542
+Elite-preserving stochastic search,21,SYN-037,1.007341277094982
+Elite-preserving stochastic search,21,SYN-044,1.8838329212797467
+Elite-preserving stochastic search,21,SYN-050,3.036857971088258
+Random search,21,SYN-009,0.14369043504936832
+Random search,21,SYN-014,1.4856113201108765
+Random search,21,SYN-027,0.716750473737041
+Random search,21,SYN-034,1.2778466722440238
+Random search,21,SYN-035,0.2787207244123803
+Random search,21,SYN-037,0.04872254559587886
+Random search,21,SYN-044,3.1410129541834513
+Random search,21,SYN-050,2.907644874666979
+Elite-preserving stochastic search,22,SYN-009,0.35701017537096946
+Elite-preserving stochastic search,22,SYN-014,0.707649089337345
+Elite-preserving stochastic search,22,SYN-027,0.8700984040564086
+Elite-preserving stochastic search,22,SYN-034,1.2458146544179565
+Elite-preserving stochastic search,22,SYN-035,0.9997210056980962
+Elite-preserving stochastic search,22,SYN-037,0.7051236240505097
+Elite-preserving stochastic search,22,SYN-044,2.411659034922416
+Elite-preserving stochastic search,22,SYN-050,2.7029240121462985
+Random search,22,SYN-009,0.35701017537096946
+Random search,22,SYN-014,0.707649089337345
+Random search,22,SYN-027,0.8700984040564086
+Random search,22,SYN-034,1.2458146544179565
+Random search,22,SYN-035,0.9997210056980962
+Random search,22,SYN-037,0.7051236240505097
+Random search,22,SYN-044,2.411659034922416
+Random search,22,SYN-050,2.7029240121462985
+Elite-preserving stochastic search,23,SYN-009,0.3647540346968093
+Elite-preserving stochastic search,23,SYN-014,0.665452812415871
+Elite-preserving stochastic search,23,SYN-027,1.2864230787832285
+Elite-preserving stochastic search,23,SYN-034,1.5532389195712795
+Elite-preserving stochastic search,23,SYN-035,0.15938590290514199
+Elite-preserving stochastic search,23,SYN-037,0.029719061002399617
+Elite-preserving stochastic search,23,SYN-044,2.7772101761381056
+Elite-preserving stochastic search,23,SYN-050,3.1638160144871654
+Random search,23,SYN-009,0.3647540346968093
+Random search,23,SYN-014,0.665452812415871
+Random search,23,SYN-027,1.2864230787832285
+Random search,23,SYN-034,1.5532389195712795
+Random search,23,SYN-035,0.15938590290514199
+Random search,23,SYN-037,0.029719061002399617
+Random search,23,SYN-044,2.7772101761381056
+Random search,23,SYN-050,3.1638160144871654
+Elite-preserving stochastic search,24,SYN-009,0.2564054334717057
+Elite-preserving stochastic search,24,SYN-014,1.4659144381392044
+Elite-preserving stochastic search,24,SYN-027,1.2593005381370377
+Elite-preserving stochastic search,24,SYN-034,0.7280829765686347
+Elite-preserving stochastic search,24,SYN-035,0.6229474405997284
+Elite-preserving stochastic search,24,SYN-037,0.1999985158593593
+Elite-preserving stochastic search,24,SYN-044,2.5144093054678165
+Elite-preserving stochastic search,24,SYN-050,2.952941351756512
+Random search,24,SYN-009,0.2564054334717057
+Random search,24,SYN-014,1.4659144381392044
+Random search,24,SYN-027,1.2593005381370377
+Random search,24,SYN-034,0.7280829765686347
+Random search,24,SYN-035,0.6229474405997284
+Random search,24,SYN-037,0.1999985158593593
+Random search,24,SYN-044,2.5144093054678165
+Random search,24,SYN-050,2.952941351756512
+Elite-preserving stochastic search,25,SYN-009,0.23433688628661384
+Elite-preserving stochastic search,25,SYN-014,1.2482869474613285
+Elite-preserving stochastic search,25,SYN-027,1.4443228042338239
+Elite-preserving stochastic search,25,SYN-034,1.043168078593337
+Elite-preserving stochastic search,25,SYN-035,0.63184607152561
+Elite-preserving stochastic search,25,SYN-037,0.41563815586978975
+Elite-preserving stochastic search,25,SYN-044,2.2936680351395196
+Elite-preserving stochastic search,25,SYN-050,2.6887330208899787
+Random search,25,SYN-009,0.23433688628661384
+Random search,25,SYN-014,1.2482869474613285
+Random search,25,SYN-027,1.4443228042338239
+Random search,25,SYN-034,1.043168078593337
+Random search,25,SYN-035,0.63184607152561
+Random search,25,SYN-037,0.41563815586978975
+Random search,25,SYN-044,2.2936680351395196
+Random search,25,SYN-050,2.6887330208899787
+Elite-preserving stochastic search,26,SYN-009,0.057476484016587476
+Elite-preserving stochastic search,26,SYN-014,0.824564162162042
+Elite-preserving stochastic search,26,SYN-027,1.3870372953882006
+Elite-preserving stochastic search,26,SYN-034,1.3402211663381856
+Elite-preserving stochastic search,26,SYN-035,1.8244190885639042
+Elite-preserving stochastic search,26,SYN-037,0.43776001040332896
+Elite-preserving stochastic search,26,SYN-044,1.6650498821512993
+Elite-preserving stochastic search,26,SYN-050,2.4634719109764527
+Random search,26,SYN-009,0.057476484016587476
+Random search,26,SYN-014,0.824564162162042
+Random search,26,SYN-027,1.3870372953882006
+Random search,26,SYN-034,1.3402211663381856
+Random search,26,SYN-035,1.8244190885639042
+Random search,26,SYN-037,0.43776001040332896
+Random search,26,SYN-044,1.6650498821512993
+Random search,26,SYN-050,2.4634719109764527
+Elite-preserving stochastic search,27,SYN-009,0.14308103737113123
+Elite-preserving stochastic search,27,SYN-014,0.7717390123981538
+Elite-preserving stochastic search,27,SYN-027,0.9889253661932356
+Elite-preserving stochastic search,27,SYN-034,1.4799560625391976
+Elite-preserving stochastic search,27,SYN-035,1.1065269278953997
+Elite-preserving stochastic search,27,SYN-037,0.6987427401389525
+Elite-preserving stochastic search,27,SYN-044,2.3758577435150277
+Elite-preserving stochastic search,27,SYN-050,2.435171109948902
+Random search,27,SYN-009,0.14308103737113123
+Random search,27,SYN-014,0.7717390123981538
+Random search,27,SYN-027,0.9889253661932356
+Random search,27,SYN-034,1.4799560625391976
+Random search,27,SYN-035,1.1065269278953997
+Random search,27,SYN-037,0.6987427401389525
+Random search,27,SYN-044,2.3758577435150277
+Random search,27,SYN-050,2.435171109948902
+Elite-preserving stochastic search,28,SYN-009,0.28779940314556157
+Elite-preserving stochastic search,28,SYN-014,1.0156526311362144
+Elite-preserving stochastic search,28,SYN-027,1.7022447321694765
+Elite-preserving stochastic search,28,SYN-034,0.49107223673312334
+Elite-preserving stochastic search,28,SYN-035,1.7525800913893013
+Elite-preserving stochastic search,28,SYN-037,0.12249737571275782
+Elite-preserving stochastic search,28,SYN-044,1.8658791099700178
+Elite-preserving stochastic search,28,SYN-050,2.7622744197435467
+Random search,28,SYN-009,0.5136428147386438
+Random search,28,SYN-014,1.1114423149943369
+Random search,28,SYN-027,1.80529770957595
+Random search,28,SYN-034,1.6007861645023809
+Random search,28,SYN-035,0.41648924947105587
+Random search,28,SYN-037,0.1471542259995552
+Random search,28,SYN-044,2.010932297074347
+Random search,28,SYN-050,2.394255223643732
+Elite-preserving stochastic search,29,SYN-009,0.18583351881738394
+Elite-preserving stochastic search,29,SYN-014,0.4633496356371782
+Elite-preserving stochastic search,29,SYN-027,1.5311556855098756
+Elite-preserving stochastic search,29,SYN-034,1.5571139194750838
+Elite-preserving stochastic search,29,SYN-035,1.513326723779586
+Elite-preserving stochastic search,29,SYN-037,0.4310947950630326
+Elite-preserving stochastic search,29,SYN-044,1.6379369054925987
+Elite-preserving stochastic search,29,SYN-050,2.68018881622526
+Random search,29,SYN-009,0.18583351881738394
+Random search,29,SYN-014,0.4633496356371782
+Random search,29,SYN-027,1.5311556855098756
+Random search,29,SYN-034,1.5571139194750838
+Random search,29,SYN-035,1.513326723779586
+Random search,29,SYN-037,0.4310947950630326
+Random search,29,SYN-044,1.6379369054925987
+Random search,29,SYN-050,2.68018881622526
+Elite-preserving stochastic search,30,SYN-009,0.43355138700722284
+Elite-preserving stochastic search,30,SYN-014,0.5498777511347605
+Elite-preserving stochastic search,30,SYN-027,0.9042734337121917
+Elite-preserving stochastic search,30,SYN-034,2.4584418426420567
+Elite-preserving stochastic search,30,SYN-035,0.423311504476015
+Elite-preserving stochastic search,30,SYN-037,0.13511518801139388
+Elite-preserving stochastic search,30,SYN-044,2.4639926866511845
+Elite-preserving stochastic search,30,SYN-050,2.631436206365175
+Random search,30,SYN-009,0.43355138700722284
+Random search,30,SYN-014,0.5498777511347605
+Random search,30,SYN-027,0.9042734337121917
+Random search,30,SYN-034,2.4584418426420567
+Random search,30,SYN-035,0.423311504476015
+Random search,30,SYN-037,0.13511518801139388
+Random search,30,SYN-044,2.4639926866511845
+Random search,30,SYN-050,2.631436206365175

@@ -1,0 +1,133 @@
+{
+  "anomaly": [
+    {
+      "model": "Isolation Forest",
+      "n": 15000,
+      "positive_definition": "injected anomaly",
+      "true_negative": 13615,
+      "false_positive": 635,
+      "false_negative": 635,
+      "true_positive": 115,
+      "precision": 0.15333333333333332,
+      "recall": 0.15333333333333332,
+      "f1": 0.15333333333333332
+    }
+  ],
+  "classifiers": [
+    {
+      "model": "Decision tree",
+      "folds": 5,
+      "precision_mean": 0.6,
+      "precision_std": 0.5477225575051661,
+      "recall_mean": 0.4,
+      "recall_std": 0.4183300132670378,
+      "f1_critical_mean": 0.4666666666666666,
+      "f1_critical_std": 0.4472135954999579,
+      "macro_f1_mean": 0.7051943584451325,
+      "macro_f1_std": 0.23874251642412953,
+      "balanced_accuracy_mean": 0.7,
+      "balanced_accuracy_std": 0.2091650066335189
+    },
+    {
+      "model": "Logistic regression",
+      "folds": 5,
+      "precision_mean": 0.6,
+      "precision_std": 0.5477225575051661,
+      "recall_mean": 0.5,
+      "recall_std": 0.5,
+      "f1_critical_mean": 0.5333333333333333,
+      "f1_critical_std": 0.5055250296034367,
+      "macro_f1_mean": 0.7444100447196422,
+      "macro_f1_std": 0.27270217757032694,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_std": 0.25
+    },
+    {
+      "model": "Random forest",
+      "folds": 5,
+      "precision_mean": 0.4,
+      "precision_std": 0.5477225575051662,
+      "recall_mean": 0.3,
+      "recall_std": 0.447213595499958,
+      "f1_critical_mean": 0.3333333333333333,
+      "f1_critical_std": 0.4714045207910317,
+      "macro_f1_mean": 0.6332989336085311,
+      "macro_f1_std": 0.2551424365197353,
+      "balanced_accuracy_mean": 0.65,
+      "balanced_accuracy_std": 0.22360679774997896
+    },
+    {
+      "model": "SVM (linear)",
+      "folds": 5,
+      "precision_mean": 0.6,
+      "precision_std": 0.5477225575051661,
+      "recall_mean": 0.5,
+      "recall_std": 0.5,
+      "f1_critical_mean": 0.5333333333333333,
+      "f1_critical_std": 0.5055250296034367,
+      "macro_f1_mean": 0.7444100447196422,
+      "macro_f1_std": 0.27270217757032694,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_std": 0.25
+    }
+  ],
+  "optimization": [
+    {
+      "method": "Elite-preserving stochastic search",
+      "runs": 30,
+      "objective_mean": 31.45205955126036,
+      "objective_std": 0.4021679330643411,
+      "reduction_percent_mean": 66.82306739770378,
+      "reduction_percent_std": 0.42422336090056517,
+      "evaluations_mean": 1000.0,
+      "runtime_seconds_mean": 0.011168934366666387,
+      "all_feasible": true
+    },
+    {
+      "method": "Greedy marginal allocation",
+      "runs": 1,
+      "objective_mean": 30.84864384869273,
+      "objective_std": null,
+      "reduction_percent_mean": 67.45957522519996,
+      "reduction_percent_std": null,
+      "evaluations_mean": 80.0,
+      "runtime_seconds_mean": 8.613000090917922e-06,
+      "all_feasible": true
+    },
+    {
+      "method": "Random search",
+      "runs": 30,
+      "objective_mean": 31.393178358459696,
+      "objective_std": 0.364746874852436,
+      "reduction_percent_mean": 66.88517771394258,
+      "reduction_percent_std": 0.38475008176030506,
+      "evaluations_mean": 1000.0,
+      "runtime_seconds_mean": 0.01194567716666673,
+      "all_feasible": true
+    },
+    {
+      "method": "Uniform allocation",
+      "runs": 1,
+      "objective_mean": 38.181779915248114,
+      "objective_std": null,
+      "reduction_percent_mean": 59.72428015979855,
+      "reduction_percent_std": null,
+      "evaluations_mean": 1.0,
+      "runtime_seconds_mean": 7.83199993747985e-06,
+      "all_feasible": true
+    },
+    {
+      "method": "Vulnerability-proportional allocation",
+      "runs": 1,
+      "objective_mean": 32.621691329762456,
+      "objective_std": null,
+      "reduction_percent_mean": 65.58929144666871,
+      "reduction_percent_std": null,
+      "evaluations_mean": 1.0,
+      "runtime_seconds_mean": 1.2147999996159342e-05,
+      "all_feasible": true
+    }
+  ],
+  "critical_before": 8,
+  "critical_after": 1
+}

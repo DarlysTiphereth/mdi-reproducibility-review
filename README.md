@@ -39,6 +39,13 @@ Outputs are written to `data/`, `results/`, and `figures/`. Tables and figures
 are regenerated only from saved result files. `results/execution_manifest.json`
 records versions, parameters, source hashes, output hashes, and limitations.
 
+The repository intentionally omits the pre-generated row-level coordinate
+files in `data/` and `results/isolation_forest_predictions.csv`. They are fully
+synthetic and are recreated deterministically by `run_pipeline.py` with
+`seed=42`; their expected SHA-256 hashes remain recorded in the manifest and
+`results/SHA256SUMS.txt`. Aggregate metrics, tables, figures, and tests are
+included for direct inspection.
+
 ## Availability and licensing
 
 This package is distributed through an anonymized repository for peer-review

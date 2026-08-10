@@ -1,0 +1,21 @@
+model,fold,tn,fp,fn,tp
+SVM (linear),1,9,0,0,1
+SVM (linear),2,9,0,1,0
+SVM (linear),3,8,0,2,0
+SVM (linear),4,8,0,1,1
+SVM (linear),5,8,0,0,2
+Logistic regression,1,9,0,0,1
+Logistic regression,2,9,0,1,0
+Logistic regression,3,8,0,2,0
+Logistic regression,4,8,0,1,1
+Logistic regression,5,8,0,0,2
+Decision tree,1,9,0,0,1
+Decision tree,2,9,0,1,0
+Decision tree,3,8,0,2,0
+Decision tree,4,8,0,1,1
+Decision tree,5,8,0,1,1
+Random forest,1,9,0,0,1
+Random forest,2,9,0,1,0
+Random forest,3,8,0,2,0
+Random forest,4,8,0,2,0
+Random forest,5,8,0,1,1

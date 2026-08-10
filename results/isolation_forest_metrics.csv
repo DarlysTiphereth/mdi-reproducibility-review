@@ -1,0 +1,2 @@
+model,n,positive_definition,true_negative,false_positive,false_negative,true_positive,precision,recall,f1
+Isolation Forest,15000,injected anomaly,13615,635,635,115,0.15333333333333332,0.15333333333333332,0.15333333333333332
