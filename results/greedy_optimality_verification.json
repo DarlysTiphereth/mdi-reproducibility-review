@@ -1,0 +1,57 @@
+{
+  "instance": {
+    "n_critical_routes": 8,
+    "budget_units": 10,
+    "route_ids": [
+      "SYN-009",
+      "SYN-014",
+      "SYN-027",
+      "SYN-034",
+      "SYN-035",
+      "SYN-037",
+      "SYN-044",
+      "SYN-050"
+    ]
+  },
+  "enumeration": {
+    "allocations_expected": 19448,
+    "allocations_enumerated": 19448,
+    "count_matches_formula": true
+  },
+  "integer_optimum": {
+    "objective": 30.84864384869273,
+    "allocation": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      4
+    ]
+  },
+  "greedy": {
+    "objective": 30.84864384869273,
+    "allocation": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      4
+    ]
+  },
+  "greedy_equals_integer_optimum": true,
+  "absolute_gap": 0.0,
+  "continuous_relaxation_objective": 30.111249263944586,
+  "integer_minus_continuous": 0.7373945847481451,
+  "marginal_gains_decreasing_for_every_route": true,
+  "references": [
+    "Fox, B. L. (1966). Discrete optimization via marginal analysis. Management Science, 13(3), 210-216.",
+    "Federgruen, A., & Groenevelt, H. (1986). The greedy procedure for resource allocation problems: necessary and sufficient conditions for optimality. Operations Research, 34(6), 909-918."
+  ],
+  "note": "Optimality is claimed for the integer formulation only. The continuous relaxation attains a strictly lower objective and is reported here solely to keep the two quantities distinct."
+}
