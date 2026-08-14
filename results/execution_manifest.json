@@ -1,7 +1,7 @@
 {
-  "executed_at_utc": "2026-08-14T03:04:31.856342+00:00",
+  "executed_at_utc": "2026-08-14T12:56:00.654854+00:00",
   "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
-  "python": "3.12.13 (main, Mar  3 2026, 14:59:34) [Clang 21.1.4 ]",
+  "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
   "versions": {
     "numpy": "2.3.5",
     "pandas": "2.2.3",
@@ -62,7 +62,7 @@
     "low_arrival_edge_case": "if fewer than two arrivals occur, two deterministic expected-time arrivals are inserted and remain disclosed"
   },
   "source_hashes": {
-    "README.md": "a90a07489ee2a914103febf637a7e1468439f059bd5ade012e0df36ad4d68852",
+    "README.md": "467a77dd12b6739702da6313f098634f01e3580935de94352cdf49d2f159c7c4",
     "config.py": "002114f01401b80db2c3241167a250aa279eed3ba57ad80cee2491ee95689ca3",
     "data_generation.py": "cee405df908176531cce36bcaece3eccf74f1b0534a34546cdd56e51d2dc5b3c",
     "evaluation.py": "46f86f9423848c25ce0b32bb374e4e101324fa61d0a47528645479287dbcb80d",
@@ -92,12 +92,12 @@
     "results/isolation_forest_metrics.csv": "b685633176feb6b64ed462f72542dcc7f7127efab07163bd2c9936c1193c0fc1",
     "results/isolation_forest_predictions.csv": "fff83c44fda2b967be0025bb11af7cee9886e7c06784dd9ba24ba1c6ebda593d",
     "results/optimization_allocations.csv": "f4e9f3d92ba9a92f39c9ca69218344b60fdb7c46a4c3f59f1c7ab9a8aa18d612",
-    "results/optimization_runs.csv": "ae4316086ddebb9891910843d8a9088078f4f62c3549ff77e295acc855c108cd",
-    "results/optimization_summary.csv": "3c9cfa79306a247c5e708f20003d1a0f996c8cd300c766648d5d508b50993a3a",
-    "results/run_stdout.json": "eb297ea72fe9879e8fb9f4baacc54be1ad91978acd04b97703a7c0ef52e0bbbb",
+    "results/optimization_runs.csv": "071cbf0aaab28396fb2f70ae93c52937eef150a41ea154d08a45c82d0ad2deb7",
+    "results/optimization_summary.csv": "735674aec6b3ec47174efc9a4f7aee17a729fea3c3132c13db451dff7848f22d",
+    "results/run_stdout.json": "0974dcd80e5144b427bd163c1dbf2b19beb659962968ac3931e4daf5f1848b48",
     "results/table_anomaly_detection.csv": "130c76feb6d50ffe250bd37ff8d227587d3df58063ccc7cebf3ba2cecb0ef784",
     "results/table_classifier_comparison.csv": "17a4403145bd4dc56f7c481fdfa3911dceaa2b93d839b8aa59f175019174718a",
-    "results/table_optimization_comparison.csv": "86e837bfb054a89575ac53a70511513aa7a3a92d2605290d66b6b23eedd9f01f",
+    "results/table_optimization_comparison.csv": "adfa85c690ce43210c8a91d30f0d953a45959103361a05b39abd547337657f99",
     "results/zone_intervention_summary.csv": "dcdde9000ca6a05d9edef34adbefe1908518837f99d95baab0e81fbc076eda7d"
   },
   "limitations": [
