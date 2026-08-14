@@ -190,6 +190,9 @@ def generate_experiment(cfg: Config):
         "configuration": cfg.to_dict(),
         "data_status": "fully synthetic; no municipal route or operational data",
         "network": "5x10 grid centered on coordinates present in the original prototype; one synthetic barrier with crossings at rows 1 and 4",
+        "direct_distance_method": "Haversine on stored latitude/longitude coordinates with Earth radius 6371008.8 metres; no projected CRS is used",
+        "network_distance_method": "Dijkstra shortest path on edges weighted by the same Haversine distance",
+        "connectivity": "the generated graph is connected and every reported origin-destination pair has a path; path construction raises an error if a pair is unreachable",
         "route_identifiers": "SYN-001 to SYN-050; synthetic network paths, not official lines",
         "income_distribution": "Uniform(900, 15000), bounds inherited from original notebook",
         "population_distribution": "DiscreteUniform{300,...,1499}, inherited from original notebook",
@@ -202,4 +205,3 @@ def generate_experiment(cfg: Config):
         "low_arrival_edge_case": "if fewer than two arrivals occur, two deterministic expected-time arrivals are inserted and remain disclosed",
     }
     return nodes, edges, routes, route_paths, zones, stops, fleet, mobile, manifest
-

@@ -117,6 +117,7 @@ def main():
             "The experiment does not estimate real waiting-time, social, or operational impacts.",
             "The binary target is mechanically derived from the MDI and therefore classifier results do not establish external predictive validity.",
             "The allocation method changes only O (audited supply); it does not optimize itineraries or topology.",
+            "Every compared allocation is a nonnegative integer vector whose entries sum to the ten-unit budget.",
             "The elite-preserving search is not a BRKGA because it has no biased crossover or mutants mechanism.",
         ],
     }

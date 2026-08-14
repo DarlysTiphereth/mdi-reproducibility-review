@@ -18,13 +18,16 @@ It does not overwrite the supplied notebook.
 - SVM, logistic regression, decision tree, and random forest use the same five
   stratified folds. The comparison is a reproducibility check for a synthetic,
   mechanically derived target, not evidence of external predictive validity.
-- The original optimizer is correctly named **elite-preserving stochastic
-  search**. It changes only `O`, uses 10 resource units, and is compared with
-  uniform, vulnerability-proportional, greedy, and random allocations. Random
-  search and the stochastic heuristic each receive 1,000 objective-function
-  calls per run across 30 paired seeds. Because retained elites are reevaluated,
-  the elite-preserving method explores 810 distinct candidates per run; random
-  search explores 1,000.
+- The supplied optimizer is correctly named **elite-preserving stochastic
+  search**. It changes only `O`, uses 10 indivisible resource units, and is
+  compared with integer uniform, vulnerability-proportional, greedy, and random
+  allocations. Every allocation is a nonnegative integer vector summing to 10.
+  Random search and the stochastic heuristic each receive 1,000 objective-
+  function calls per run across 30 paired seeds. Fresh stochastic candidates
+  are sampled uniformly from the 19,448 feasible weak compositions. Repeated
+  candidates are possible and are counted explicitly: random search inspects a
+  mean of 974.9 distinct allocations per run and the elite-preserving method a
+  mean of 793.2.
 
 ## Reference benchmark and data boundary
 
@@ -51,12 +54,14 @@ manuscript.
 | Synthetic-data specification | `data_generation.py` implements the 5 x 10 network, 50 synthetic identifiers, declared sampling distributions, anomaly truth, arrivals, and seed-controlled generation. |
 | Objective anomaly metrics | `evaluation.py` retains truth and predictions for all 15,000 points and reports the complete confusion matrix, precision, recall, and F1. |
 | Common classifier comparison | `evaluation.py` evaluates SVM, logistic regression, decision tree, and random forest with the same five stratified folds and seed. |
-| Allocation baselines | `optimization.py` evaluates uniform, vulnerability-proportional, greedy, random, and elite-preserving allocations under the same ten-unit resource constraint. |
+| Allocation baselines | `optimization.py` evaluates integer uniform, vulnerability-proportional, greedy, random, and elite-preserving allocations under the same ten-unit resource constraint. Uniform allocation uses quotient-and-remainder apportionment; vulnerability-proportional allocation uses the Hamilton largest-remainder rule. |
 | Exact integer optimum | `verify_greedy_optimality.py` enumerates all 19,448 feasible allocations, confirms the reported greedy optimum, checks decreasing marginal gains, and keeps the continuous relaxation explicitly separate. |
 
-The reviewer requested these comparisons and disclosures; no reviewer prescribed
-a particular stochastic optimizer. The implementation therefore complies with
-the requested evaluation design while naming the implemented heuristic exactly.
+The accepted manuscript called the supplied procedure a BRKGA, but the code has
+no biased crossover or mutant mechanism. The revision therefore names and
+evaluates the implemented heuristic exactly instead of presenting a method that
+was not executed. A complete BRKGA remains a separately identified future
+comparator.
 
 ## Reproduce the benchmark
 

@@ -1,5 +1,5 @@
 {
-  "executed_at_utc": "2026-08-14T12:56:00.654854+00:00",
+  "executed_at_utc": "2026-08-14T15:39:53.894200+00:00",
   "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
   "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
   "versions": {
@@ -50,6 +50,9 @@
     },
     "data_status": "fully synthetic; no municipal route or operational data",
     "network": "5x10 grid centered on coordinates present in the original prototype; one synthetic barrier with crossings at rows 1 and 4",
+    "direct_distance_method": "Haversine on stored latitude/longitude coordinates with Earth radius 6371008.8 metres; no projected CRS is used",
+    "network_distance_method": "Dijkstra shortest path on edges weighted by the same Haversine distance",
+    "connectivity": "the generated graph is connected and every reported origin-destination pair has a path; path construction raises an error if a pair is unreachable",
     "route_identifiers": "SYN-001 to SYN-050; synthetic network paths, not official lines",
     "income_distribution": "Uniform(900, 15000), bounds inherited from original notebook",
     "population_distribution": "DiscreteUniform{300,...,1499}, inherited from original notebook",
@@ -62,16 +65,16 @@
     "low_arrival_edge_case": "if fewer than two arrivals occur, two deterministic expected-time arrivals are inserted and remain disclosed"
   },
   "source_hashes": {
-    "README.md": "467a77dd12b6739702da6313f098634f01e3580935de94352cdf49d2f159c7c4",
+    "README.md": "3467e7fdcb36430e137dc2a98aa4bffc66ca91eaaab21147fc3f228ed3aee95b",
     "config.py": "002114f01401b80db2c3241167a250aa279eed3ba57ad80cee2491ee95689ca3",
-    "data_generation.py": "cee405df908176531cce36bcaece3eccf74f1b0534a34546cdd56e51d2dc5b3c",
+    "data_generation.py": "db07fc559429f6a84603bedbd039aa7e5ac70fe6da4f146b895a5a2a79b4a80b",
     "evaluation.py": "46f86f9423848c25ce0b32bb374e4e101324fa61d0a47528645479287dbcb80d",
     "mdi.py": "8a4053cf4d01c503366363961fd8ed0c7ae848e30a70098ec504dd3c1543626b",
-    "optimization.py": "6a3d7d837b44bd264fde5945fc0f77dd28123a0463b149e0a635de1830f8cb28",
-    "reporting.py": "1042774514b8c586dc9878757007e397c3cb626d5c2a270299deba6702346f29",
+    "optimization.py": "802cd7baf0bcfe34bebb3a64e13748d566d6fe9dc7ec97afb970aef163d73158",
+    "reporting.py": "4ac2cf0dc2465fe3d3149c9029f7136fc58790bb619e2cf9357106ee014f23ca",
     "requirements.txt": "9ec82eabd11d4edb2ad4fa3483de5f0330aa06ea7a57c6beb2800417f9a44262",
-    "run_pipeline.py": "8c5843dfb3bf819bd35ff6a69067a13eec572a473acf038d246cf4cc78fcece9",
-    "test_core.py": "ac209bf422f8909f6e7572a42163f625b357dd7070d5d88301522cd0080820c9",
+    "run_pipeline.py": "44c0f8db7b4305399336548174a1dfac771027355771becd11f37a495927b0fb",
+    "test_core.py": "3bce5253b02666fc60b4ac43c07f75fc9851bbeb75ca1ca2c1513a2aa8f7f09e",
     "verify_greedy_optimality.py": "64a7f09a3e44b21f84c2e06ec98312bf7b62f9fccc499f2652b49afcb14ba50b"
   },
   "outputs": {
@@ -83,28 +86,29 @@
     "data/synthetic_routes.csv": "5dbdfdf6be049c1091064f829ec3cc36f9f9465abe2d4cb957af5ae19aa0ad82",
     "data/synthetic_stops.csv": "7f3eec31ada794d446a0605602de7931b02ecf45adb5d3377770bb7fcaa5802c",
     "data/zones_mdi.csv": "44c1e75f159e8421c05544689aea3e9f58af4d551ddd3f1103368c7e47fe0a9d",
-    "figures/figure2_mdi_before_after.png": "e80f931a0adda010f0325e945cc5cec2965a5b945ded403febfaaef903ca4cc1",
-    "figures/figure3_optimization_comparison.png": "aedfd0c668b23ff050bf1d9fd27a4bdf4a81218737aaba9b9626cfa7d75a2197",
+    "figures/figure2_mdi_before_after.png": "b407e348dc4b01577d5ea984e107e67a3b91f24004c4b6a211667f596044d9f9",
+    "figures/figure3_optimization_comparison.png": "07c84d50c947635898138a3c0d409c2056a7f50259bd8b78f828078338d6c8bd",
     "results/classifier_confusion_matrices.csv": "9c63af95cbf003eace9cf6cb96553508187f0dd401886acafb2379c2f7006bf3",
     "results/classifier_fold_metrics.csv": "de73b9bed044b0f204e249e347cbb7d9f3aff4189969e90ef4ccb3f89ee0b688",
     "results/classifier_summary.csv": "2d73dee017f508caebdb04290a1fd3e65d18b769d198d877c0564ab27a952f2f",
     "results/greedy_optimality_verification.json": "900ec2d0af365d47906ba5a8babf4f380b94cfbf4cdff91459a203e597cf9806",
     "results/isolation_forest_metrics.csv": "b685633176feb6b64ed462f72542dcc7f7127efab07163bd2c9936c1193c0fc1",
     "results/isolation_forest_predictions.csv": "fff83c44fda2b967be0025bb11af7cee9886e7c06784dd9ba24ba1c6ebda593d",
-    "results/optimization_allocations.csv": "f4e9f3d92ba9a92f39c9ca69218344b60fdb7c46a4c3f59f1c7ab9a8aa18d612",
-    "results/optimization_runs.csv": "071cbf0aaab28396fb2f70ae93c52937eef150a41ea154d08a45c82d0ad2deb7",
-    "results/optimization_summary.csv": "735674aec6b3ec47174efc9a4f7aee17a729fea3c3132c13db451dff7848f22d",
-    "results/run_stdout.json": "0974dcd80e5144b427bd163c1dbf2b19beb659962968ac3931e4daf5f1848b48",
+    "results/optimization_allocations.csv": "d1af342c92600487146889c75d06941e47ad5f222342daa74dd1df3fd91a4fa1",
+    "results/optimization_runs.csv": "5fb0f4b0e81558ac0df4b088c055b94622a462594c78f6ea1e1290bee2a13473",
+    "results/optimization_summary.csv": "2e78b626c8fb24e9af0ae65e3eff2f17d48b3441bf8cc0acfe701685408e24d3",
+    "results/run_stdout.json": "fdb0b0b7661c943f7631c9a6d89e10f4159bffc9422e3fc1cf54a8e874752383",
     "results/table_anomaly_detection.csv": "130c76feb6d50ffe250bd37ff8d227587d3df58063ccc7cebf3ba2cecb0ef784",
     "results/table_classifier_comparison.csv": "17a4403145bd4dc56f7c481fdfa3911dceaa2b93d839b8aa59f175019174718a",
-    "results/table_optimization_comparison.csv": "adfa85c690ce43210c8a91d30f0d953a45959103361a05b39abd547337657f99",
-    "results/zone_intervention_summary.csv": "dcdde9000ca6a05d9edef34adbefe1908518837f99d95baab0e81fbc076eda7d"
+    "results/table_optimization_comparison.csv": "696e0168e5976236619c49e32f6e36dc7d0198f8b6d102d931c4e5285df95ffd",
+    "results/zone_intervention_summary.csv": "48624edb6fb2b1cd4bdef6493a33107eb30b941b815c3af7a4f5623e0c1e4518"
   },
   "limitations": [
     "All routes, socioeconomic attributes, stops, telemetry, and demand points are synthetic.",
     "The experiment does not estimate real waiting-time, social, or operational impacts.",
     "The binary target is mechanically derived from the MDI and therefore classifier results do not establish external predictive validity.",
     "The allocation method changes only O (audited supply); it does not optimize itineraries or topology.",
+    "Every compared allocation is a nonnegative integer vector whose entries sum to the ten-unit budget.",
     "The elite-preserving search is not a BRKGA because it has no biased crossover or mutants mechanism."
   ]
 }
