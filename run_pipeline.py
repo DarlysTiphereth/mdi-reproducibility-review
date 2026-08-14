@@ -22,6 +22,7 @@ from data_generation import generate_experiment
 from evaluation import compare_classifiers, evaluate_isolation_forest
 from optimization import compare_optimization
 from reporting import create_article_tables, create_figures
+from verify_greedy_optimality import main as verify_greedy_optimality
 
 
 ROOT = Path(__file__).resolve().parent
@@ -91,6 +92,13 @@ def main():
         json.dumps(run_summary, indent=2, allow_nan=False), encoding="utf-8"
     )
 
+    # Produce and validate the exhaustive integer-optimality certificate before
+    # freezing the manifest and checksums.  Keeping this inside the complete
+    # pipeline guarantees that a clean rerun covers the certificate as an
+    # ordinary scientific output rather than leaving it as an unhashed add-on.
+    if verify_greedy_optimality() != 0:
+        raise RuntimeError("Greedy integer-optimality verification failed")
+
     script_files = sorted(list(ROOT.glob("*.py")) + list((ROOT / "tests").glob("*.py"))
                           + [ROOT / "README.md", ROOT / "requirements.txt"])
     manifest = {
@@ -115,7 +123,10 @@ def main():
     frozen_outputs = sorted(
         list(DATA.glob("*.csv"))
         + list(RESULTS.glob("*.csv"))
-        + [RESULTS / "run_stdout.json"]
+        + [
+            RESULTS / "run_stdout.json",
+            RESULTS / "greedy_optimality_verification.json",
+        ]
         + list(FIGURES.glob("*.png"))
     )
     for path in frozen_outputs:
