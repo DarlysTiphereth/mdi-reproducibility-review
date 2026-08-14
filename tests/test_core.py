@@ -41,6 +41,8 @@ class CoreTests(unittest.TestCase):
         runs, allocations, summary, post = compare_optimization(zones_a, CONFIG)
         sums = allocations.groupby(["method", "run"]).allocation.sum().to_numpy()
         self.assertTrue(np.allclose(sums, CONFIG.total_resource_units))
+        self.assertTrue(np.allclose(allocations.allocation, np.rint(allocations.allocation)))
+        self.assertTrue(runs.integer_feasible.all())
         stochastic = runs[runs.method.isin(["Elite-preserving stochastic search", "Random search"])]
         self.assertTrue((stochastic.evaluations == CONFIG.evaluation_budget).all())
 

@@ -75,13 +75,15 @@
     {
       "method": "Elite-preserving stochastic search",
       "runs": 30,
-      "objective_mean": 31.45205955126036,
-      "objective_std": 0.4021679330643411,
-      "reduction_percent_mean": 66.82306739770378,
-      "reduction_percent_std": 0.42422336090056517,
+      "objective_mean": 31.430251515522183,
+      "objective_std": 0.419496322763317,
+      "reduction_percent_mean": 66.84607141531652,
+      "reduction_percent_std": 0.44250206268835135,
       "evaluations_mean": 1000.0,
-      "runtime_seconds_mean": 0.010215781566663888,
-      "all_feasible": true
+      "distinct_candidates_mean": 793.1666666666666,
+      "runtime_seconds_mean": 0.019549901833306647,
+      "all_feasible": true,
+      "all_integer_feasible": true
     },
     {
       "method": "Greedy marginal allocation",
@@ -91,43 +93,51 @@
       "reduction_percent_mean": 67.45957522519996,
       "reduction_percent_std": null,
       "evaluations_mean": 80.0,
-      "runtime_seconds_mean": 8.748000027480884e-06,
-      "all_feasible": true
+      "distinct_candidates_mean": 80.0,
+      "runtime_seconds_mean": 9.524999768473208e-06,
+      "all_feasible": true,
+      "all_integer_feasible": true
     },
     {
       "method": "Random search",
       "runs": 30,
-      "objective_mean": 31.393178358459696,
-      "objective_std": 0.364746874852436,
-      "reduction_percent_mean": 66.88517771394258,
-      "reduction_percent_std": 0.38475008176030506,
+      "objective_mean": 31.303613168362425,
+      "objective_std": 0.36121947810535504,
+      "reduction_percent_mean": 66.97965477896678,
+      "reduction_percent_std": 0.38102923785344645,
       "evaluations_mean": 1000.0,
-      "runtime_seconds_mean": 0.010322994833306136,
-      "all_feasible": true
+      "distinct_candidates_mean": 974.9333333333333,
+      "runtime_seconds_mean": 0.0213682281999354,
+      "all_feasible": true,
+      "all_integer_feasible": true
     },
     {
       "method": "Uniform allocation",
       "runs": 1,
-      "objective_mean": 38.181779915248114,
+      "objective_mean": 42.26578842861816,
       "objective_std": null,
-      "reduction_percent_mean": 59.72428015979855,
+      "reduction_percent_mean": 55.41629915224472,
       "reduction_percent_std": null,
       "evaluations_mean": 1.0,
-      "runtime_seconds_mean": 7.440999979735352e-06,
-      "all_feasible": true
+      "distinct_candidates_mean": 1.0,
+      "runtime_seconds_mean": 7.8370012488449e-06,
+      "all_feasible": true,
+      "all_integer_feasible": true
     },
     {
       "method": "Vulnerability-proportional allocation",
       "runs": 1,
-      "objective_mean": 32.621691329762456,
+      "objective_mean": 32.788120980743365,
       "objective_std": null,
-      "reduction_percent_mean": 65.58929144666871,
+      "reduction_percent_mean": 65.41373457082666,
       "reduction_percent_std": null,
       "evaluations_mean": 1.0,
-      "runtime_seconds_mean": 1.1373999996067141e-05,
-      "all_feasible": true
+      "distinct_candidates_mean": 1.0,
+      "runtime_seconds_mean": 1.1416001143516041e-05,
+      "all_feasible": true,
+      "all_integer_feasible": true
     }
   ],
   "critical_before": 8,
-  "critical_after": 1
+  "critical_after": 0
 }
