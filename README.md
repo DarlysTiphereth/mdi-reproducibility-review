@@ -1,12 +1,14 @@
-# Reproducible synthetic MDI experiment
+# MDI reproducibility environment
 
-This package is the revised reproducibility experiment prepared in response to
-the SBPO reviews. It does not overwrite the supplied notebook.
+This repository provides a complete, auditable computational environment for
+reproducing the Mobility Desert Index (MDI) benchmark reported in the revised
+SBPO manuscript. It brings together the executable pipeline, pinned
+dependencies, deterministic generators, saved outputs, automated tests,
+figures, manifests, and SHA-256 checksums required for independent inspection.
+It does not overwrite the supplied notebook.
 
-## Scientific scope
+## What this environment reproduces
 
-- All 50 route identifiers (`SYN-001` to `SYN-050`), topology, attributes,
-  stops, GPS pings, and mobile points are synthetic.
 - `P`, `I`, `O`, and `MDI` are calculated by the formulas stated in the
   manuscript. Every distribution and seed is recorded in the execution
   manifest.
@@ -23,6 +25,15 @@ the SBPO reviews. It does not overwrite the supplied notebook.
   calls per run across 30 paired seeds. Because retained elites are reevaluated,
   the elite-preserving method explores 810 distinct candidates per run; random
   search explores 1,000.
+
+## Reference benchmark and data boundary
+
+The reproducibility environment currently executes a controlled reference
+benchmark. All 50 route identifiers (`SYN-001` to `SYN-050`), network topology,
+socioeconomic attributes, stops, GPS pings, and mobile points included in that
+benchmark are synthetic and deterministically regenerated with `seed=42`.
+They are designed for exact reruns and method auditing; they are not presented
+as observed municipal data or as evidence of external predictive validity.
 
 ## Planned Data.Rio validation boundary
 
@@ -47,7 +58,7 @@ The reviewer requested these comparisons and disclosures; no reviewer prescribed
 a particular stochastic optimizer. The implementation therefore complies with
 the requested evaluation design while naming the implemented heuristic exactly.
 
-## Run
+## Reproduce the benchmark
 
 Create an isolated Python 3.12 environment, install the pinned dependencies,
 and execute:
@@ -70,12 +81,13 @@ included in the manifest and checksum list. It may also be run separately with
 `python verify_greedy_optimality.py`; it exhaustively enumerates the reported
 instance rather than using only the smaller instances exercised by the suite.
 
-The repository mirror intentionally omits the pre-generated row-level
-coordinate files in `data/` and `results/isolation_forest_predictions.csv`.
-They are fully synthetic and are recreated deterministically by
-`run_pipeline.py` with `seed=42`; their expected SHA-256 hashes remain recorded
-in the manifest and `results/SHA256SUMS.txt`. Aggregate metrics, tables,
-figures, the optimum certificate, and tests are included for direct inspection.
+The anonymous repository mirror intentionally omits the pre-generated
+row-level coordinate files in `data/` and
+`results/isolation_forest_predictions.csv`. They are recreated deterministically
+by `run_pipeline.py` with `seed=42`; their expected SHA-256 hashes remain
+recorded in the manifest and `results/SHA256SUMS.txt`. Aggregate metrics,
+tables, figures, the optimum certificate, and tests are included for direct
+inspection.
 
 ## Availability and licensing
 
